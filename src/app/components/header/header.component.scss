@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+ul{
+    background-color: #fc4e17;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+#logo{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}

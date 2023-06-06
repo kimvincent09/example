@@ -1,0 +1,126 @@
+*{
+    font-family: 'Sora', sans-serif;
+}
+body{
+    background-image: url('../../../assets/img/ring-bg.png');
+    fill-opacity: 0.6;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a{
+    color: #007bff;
+    font-weight: 300;
+}
+.glass{
+    /* From https://css.glass */
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.bg-orange{
+    background: rgba(255, 167, 4, 1);
+    color: white;
+}
+nav{
+    display: inline-block;
+}
+.card-title{
+    color: black;
+    text-transform: uppercase;
+}
+nav{
+    color: white;
+}
+.logo{
+    font-family: 'Playfair Display', serif;
+    color: rgb(255, 167, 4);
+    font-size: 25px;
+}
+.cart{
+    font-size: 25px;
+    color: rgb(255, 167, 4);
+}
+.price{
+    background-color: rgba(44, 44, 44, 0.4);
+    text-align: center;
+}
+.card-img-overlay{
+    color: white;
+    position: absolute;
+    top:100px;
+}
+.login{
+    height: 100vh;
+    overflow: hidden;
+}
+.bg-grey{
+    background-color: rgba(44, 44, 44, 0.9);
+    color: white;
+}
+.bg-grey:hover{
+    color: rgb(240, 153, 24);
+}
+p{
+    font-size: 0.75rem;
+}
+.glow {
+    --glow-color: rgba(240, 154, 24, 0.329);
+    --glow-spread-color: rgba(255, 167, 123, 0.781);
+    --enhanced-glow-color: rgb(255, 167, 206);
+    --btn-color: rgb(240, 153, 24);
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+   }
+   
+   .glow::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+   }
+   
+   .input-group:focus{
+       outline: blue;
+       box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+   }
+   .item:hover{
+    cursor: pointer;
+    border:1px solid rgba(255, 167, 4, 1);
+    transform:scale(1.1);
+    z-index: 2;
+   }
+   .bg-maroon{
+       background-color: #990000;
+       color: white;
+   }
+   .logout{
+       font-size: 25px;
+       color: white;
+   }
+   .bg-lightgreen{
+    background-color: lightgreen;
+   }
+   dialog>*, dialog textarea, dialog .input-group>*{
+       font-size: 12px;
+   }

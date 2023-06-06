@@ -95,10 +95,15 @@
             "styles": [
               "src/styles.sass"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/@iconify/angular/iconify.icon"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "8f97e093-b41d-45c4-806f-d06ea4b56406"
   }
 }
